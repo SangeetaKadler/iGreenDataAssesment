@@ -46,3 +46,13 @@ REPORT
 Output: 0,0,WEST
 ```
 
+## Instructions to run the project
+Please follow the following steps to run the Toy Robot Simulator project
+1. Clone or download the Toy Robot Simulator project from the git repository 
+2. Open Visual Studio (ensure you have .NET 6.0 or later installed), and navigate to the location where you saved the project files. Open the solution file (ToyRobotSimulator.sln) in Visual Studio.
+3. Once the project is opened in Visual Studio, build the solution by selecting "Build" --> "Build Solution" from the menu bar. This will compile the code and ensure there are no compilation errors.
+4. After successfully building the solution, you can run the Toy Robot Simulator by setting the project containing the main program (i.e. ToyRobotSimulator) as the startup project. Right-click on the project in the Solution Explorer and select "Set as Startup Project." Then, press F5 or click on the "Start" button in the toolbar to run the program.
+5. Once the program starts, it will prompt you to enter the dimensions of the tabletop (the length of the sides). Enter the dimensions as requested. Then, follow the instructions to enter the commands for the toy robot simulation. You can provide commands like PLACE X,Y,F, MOVE, LEFT, RIGHT, and REPORT. Enter an empty line to finish entering commands and see the output.
+6. After providing input commands, the program will execute the toy robot simulation and display the output. Review the output to see the final position and direction of the robot.
+7. You can run the Toy Robot Simulator multiple times with different input commands and tabletop dimensions as needed.
+
